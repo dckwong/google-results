@@ -1,0 +1,111 @@
+#listitems{
+    list-style-type: none;
+    position:relative;
+}
+#name{
+    width:30px;
+    height:30px;
+    padding-top:10px;
+}
+#app{
+    width:20px;
+    margin: 3px 0px 10px 10px;
+    padding-top:10px;
+}
+#bell{
+    width:20px;
+    height:20px;
+    padding-top:10px;
+    margin: 3px 0px 10px 10px;
+}
+#app,#bell{
+    padding-top:10px;
+}
+#user{
+    width: 40px;
+    height:40px;
+    margin:0px 0px 10px 10px;
+}
+#images, #mail{
+    padding-top:10px;
+}
+#ads,#business,#about,#privacy,#terms,#settings{
+    text-decoration:none;
+}
+.bottombar{
+    line-height:30px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#f2f2f2;
+    text-decoration:none;
+    font-family: arial,sans-serif;
+    
+}
+.left{
+    font-size:13px;
+    color:#666;
+    float:left;
+    padding-top:5px;
+    padding-right: 10px;
+    margin: 0px 0px 10px 10px;
+}
+.right{
+    font-size:13px;
+    color:#666;
+    float:right;
+    padding-left:10px;
+    padding-top:5px;
+    margin:0px 0px 10px 10px;
+}
+.toplinks{
+    float:right;
+    padding-right:15px;
+    font-size:13px;
+    color:#000;
+    line-height:24px;
+    vertical-align:middle;
+    font-family: arial,sans-serif;
+    text-decoration:none;
+    
+}
+.searchbar{
+    font:16px arial, sans-serif;
+    line-height:26px;
+    width:540px;
+    height: 26px;
+    
+}
+.topbar{
+    min-width: 301px;
+    padding-top:10px;
+}
+
+.logo{
+    clear:both;
+    position: relative;
+    margin-top:70px;
+    padding-bottom:20px;
+}
+.search{
+    position:relative;
+}
+.content{
+    clear:both;
+}
+.buttons{
+    background:#f2f2f2;
+    color:#757575;
+    height:36px;
+    line-height:27px;
+    border:1px solid #f2f2f2;
+    border-radius:2px;
+    font-family:arial,sans-serif;
+    font-weight:bold;
+    font-size:13px;
+    margin:11px 4px;
+}
+.buttondiv{
+    padding-top:18px;
+}
