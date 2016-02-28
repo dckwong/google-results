@@ -6,9 +6,11 @@
     text-decoration:none;     
 }
 #mic{
+    width:1.3%;
     position:absolute;
-    right:370px;
+    right:373px;
     top:5px;
+    
 }
 #name{
     width:30px;
