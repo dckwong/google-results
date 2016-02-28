@@ -2,6 +2,14 @@
     list-style-type: none;
     position:relative;
 }
+#amic{
+    text-decoration:none;     
+}
+#mic{
+    position:absolute;
+    right:370px;
+    top:5px;
+}
 #name{
     width:30px;
     height:30px;

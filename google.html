@@ -2,8 +2,9 @@
 <head>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+  <title>Google</title>
 </head>
-<body>
+<body>  
   <div class="topbar">
     <ul id="listitems">
       <li>
@@ -38,9 +39,15 @@
     </center>
   </div>
   <div class="search" id="search">
-    <center>
-      <input class="searchbar" type="text" id="searchbar" maxlength="2048">
-    </center>
+    <form action="POST">
+      <center>
+	<a id"amic" href="#">
+	  <img alt="Mic" id="mic" src="images/mic.svg">
+	</a>
+	<input class="searchbar" type="text" id="searchbar" maxlength="2048">
+
+      </center>
+    </form>
     <div class="buttondiv">
       <center>
 	<input class="buttons" value="Google Search" type="submit">
